@@ -2,34 +2,35 @@
 
 ## Jiajiri Kwa Kujitengenezea
 
-### Mission
+Alilee Transformed is a Kenyan technology platform dedicated to empowering entrepreneurs through affordable DIY raw materials, practical skills training, AI-powered business support, and access to markets.
 
-Empowering Kenyans through affordable DIY raw materials, practical skills, business incubation, AI-powered business support, and market access.
+---
+
+## Vision
+
+To become Africa's leading DIY empowerment and entrepreneurship platform.
+
+---
+
+## Mission
+
+Empower individuals to create sustainable income through practical skills, affordable raw materials, innovation, and technology.
 
 ---
 
 ## Tech Stack
 
-- React
-- Vite
+- React + Vite
 - Tailwind CSS
 - React Router
 - Node.js
-- Express.js
-- MongoDB
-- AI Integration (Planned)
+- Express
+- MongoDB Atlas
+- JWT Authentication
+- AI Agents (Upcoming)
 
 ---
 
-## Project Structure
+## Project Status
 
-This project follows a scalable frontend architecture to support future development.
-
----
-
-## Sprint 1
-
-- Project structure initialized
-- Placeholder pages created
-- Navbar component
-- Footer component
+🚧 Under Active Development
