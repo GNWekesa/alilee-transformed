@@ -1,13 +1,4 @@
-const services = [
-  "DIY Raw Materials",
-  "Business Training",
-  "Starter Kits",
-  "Plaster & Silicone Mould Crafts",
-  "Resin & Epoxy Crafts",
-  "Soap & Candle Making",
-  "AI Business Advisor",
-  "Marketplace",
-];
+import { services } from "../../data/siteData";
 
 const Services = () => {
   return (
@@ -19,18 +10,27 @@ const Services = () => {
         </h2>
 
         <p className="text-center mt-4 text-gray-600">
-          Everything you need to start your own income-generating business.
+          Everything you need to start and grow your own business.
         </p>
 
-        <div className="grid md:grid-cols-4 gap-6 mt-14">
+        <div className="grid md:grid-cols-3 gap-8 mt-14">
+
           {services.map((service) => (
             <div
-              key={service}
-              className="p-6 rounded-xl shadow-lg hover:shadow-xl transition"
+              key={service.title}
+              className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition"
             >
-              <h3 className="font-bold text-lg">{service}</h3>
+              <h3 className="text-xl font-bold mb-4">
+                {service.title}
+              </h3>
+
+              <p className="text-gray-600">
+                {service.description}
+              </p>
+
             </div>
           ))}
+
         </div>
 
       </div>
