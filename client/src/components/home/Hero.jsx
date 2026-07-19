@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="bg-blue-900 text-white min-h-screen flex items-center">
+    <section id="home" className="bg-blue-900 text-white min-h-screen flex items-center">
       <div className="max-w-7xl mx-auto px-6 py-20">
 
         <motion.h1

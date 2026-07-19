@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <section className="bg-blue-900 text-white py-24">
+    <section id="contact" className="bg-blue-900 text-white py-24">
 
       <div className="max-w-5xl mx-auto px-6 text-center">
 
