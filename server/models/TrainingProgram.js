@@ -1,10 +1,11 @@
 import mongoose from "mongoose";
 
-const courseSchema = new mongoose.Schema(
+const trainingProgramSchema = new mongoose.Schema(
   {
     title: {
       type: String,
       required: true,
+      trim: true,
     },
 
     description: {
@@ -17,13 +18,19 @@ const courseSchema = new mongoose.Schema(
       required: true,
     },
 
-    price: {
+    fee: {
       type: Number,
       required: true,
     },
 
     image: {
       type: String,
+      default: "",
+    },
+
+    featured: {
+      type: Boolean,
+      default: false,
     },
   },
   {
@@ -31,4 +38,4 @@ const courseSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.model("Course", courseSchema);
+export default mongoose.model("TrainingProgram", trainingProgramSchema);
