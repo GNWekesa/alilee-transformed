@@ -8,6 +8,7 @@ import WhyChooseUs from "../../components/home/WhyChooseUs";
 import FAQ from "../../components/home/FAQ";
 import CTA from "../../components/home/CTA";
 import Footer from "../../components/layout/Footer";
+import FloatingWhatsApp from "../../components/layout/FloatingWhatsApp";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <FAQ />
       <CTA />
       <Footer />
+      <FloatingWhatsApp />
     </>
   );
 };
