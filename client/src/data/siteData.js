@@ -1,10 +1,14 @@
 export const hero = {
-  title: "Transform Skills Into Sustainable Businesses",
+  title: "Empowering Entrepreneurs Through Practical Skills",
+
   subtitle: "Jiajiri Kwa Kujitengenezea",
+
   description:
-    "Alilee Transformed empowers individuals through affordable DIY raw materials, practical skills training, business incubation, and AI-powered business support.",
-  primaryButton: "Start Your Journey",
-  secondaryButton: "Explore Opportunities",
+    "Alilee Transformed equips aspiring entrepreneurs with practical DIY skills, affordable raw materials, business mentorship, and continuous support to help them build profitable and sustainable businesses.",
+
+  primaryButton: "Book Training",
+
+  secondaryButton: "View Programs",
 };
 
 export const services = [
